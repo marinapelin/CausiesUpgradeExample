@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sticky Header Buttons</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.left-button {
+    margin-left: 10px;
+}
+
+.right-button {
+    margin-right: 10px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <a class="left-button">Left</a>
+        <ul>
+            
+            <li>
+
+                <a class="right-button">Right</a>
+            </li>
+        </ul>
+        
+    </header>
+</body>
+</html>
